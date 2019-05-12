@@ -8,7 +8,7 @@ public class Main {
                 shape.getClass().getSimpleName(),
                 shape.getPerimeter(),
                 shape.getArea());
-        System.out.println(message);
+        System.out.println(message);  
     }
     public static void main(String[] args) {
         AShape circle = new Circle(2);
